@@ -1,5 +1,4 @@
 import React from 'react';
-import ClassProps from './ClassProps';
 function FunctionProp(props) {
     return (
         <div>

@@ -1,70 +1,173 @@
-# Getting Started with Create React App
+# 🏗️ React Properties
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A modern React application showcasing component properties and best practices
 
-## Available Scripts
+![JavaScript](https://img.shields.io/badge/JavaScript-46.9%25-yellow?logo=javascript&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-34.5%25-red?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-18.6%25-blue?logo=css3&logoColor=white)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📋 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [About](#about)
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Project Structure](#project-structure)
+- [Technology Stack](#technology-stack)
+- [Contributing](#contributing)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 💡 About
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**React Properties** is a React-based project that demonstrates component composition, prop management, and React best practices. Perfect for learning how to build scalable and maintainable React applications.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Node.js** (v14 or higher)
+- **npm** or **yarn**
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+# Clone the repository
+git clone https://github.com/marioskaraiskos/react-properties.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Navigate to project directory
+cd react-properties
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Install dependencies
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Quick Start
 
-## Learn More
+```bash
+# Start development server
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Open your browser and navigate to
+# http://localhost:3000
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📝 Available Scripts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### `npm start` 🏃
 
-### Analyzing the Bundle Size
+Runs the app in development mode with hot-reload.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start
+```
 
-### Making a Progressive Web App
+**Output:** Opens [http://localhost:3000](http://localhost:3000) in your browser
+- Changes auto-reload
+- Lint errors appear in console
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### `npm test` 🧪
 
-### Advanced Configuration
+Launches the test runner in interactive watch mode.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm test
+```
 
-### Deployment
+For more details, see the [testing guide](https://facebook.github.io/create-react-app/docs/running-tests).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### `npm run build` 🔨
 
-### `npm run build` fails to minify
+Builds the app for production.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm run build
+```
+
+**Output:** Creates an optimized build in the `build/` folder
+- Minified code
+- Hashed filenames
+- Ready for deployment
+
+### `npm run eject` ⚙️
+
+> ⚠️ **Note:** This is a one-way operation!
+
+Ejects from Create React App configuration.
+
+```bash
+npm run eject
+```
+
+Gives you full control over Webpack, Babel, ESLint, etc. Only use this if you need advanced customization.
+
+---
+
+## 📁 Project Structure
+
+```
+react-properties/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── package.json
+└── README.md
+```
+
+---
+
+## 🛠️ Technology Stack
+
+| Technology | Purpose | Percentage |
+|------------|---------|-----------|
+| **JavaScript** | Logic & Interactivity | 46.9% |
+| **HTML** | Structure & Markup | 34.5% |
+| **CSS** | Styling & Layouts | 18.6% |
+
+---
+
+## 🎓 Learn More
+
+- 📚 [Create React App Docs](https://facebook.github.io/create-react-app/docs/getting-started)
+- ⚛️ [React Documentation](https://reactjs.org/)
+- 🔄 [Code Splitting Guide](https://facebook.github.io/create-react-app/docs/code-splitting)
+- 📦 [Bundle Size Analysis](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+
+1. **Fork** the repository
+2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. **Open** a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+<div align="center">
+
+**⭐ If you find this project helpful, please consider giving it a star!**
+
+Made with ❤️ by [marioskaraiskos](https://github.com/marioskaraiskos)
+
+</div>
